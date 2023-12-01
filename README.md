@@ -1,5 +1,5 @@
-## BY:
-## REGISTER NUMBER:
+## BY:D.MATHIYAZHAGAN.
+## REGISTER NUMBER:23013685
 # Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-
  AIM:
 To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
@@ -60,8 +60,19 @@ Press the switches for inputs “A” and “B”. The switch is ON state when 1
 If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
 Program:
-![image](https://github.com/MathiyazhaganDhanapal/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/145981115/9bf79ff0-9f54-47ad-86c7-da3ff4a77ec9)
-
+```
+module exp01(a,b,y1,y2,y3,y4,y5,y6,y7);
+input a,b;
+output y1,y2,y3,y4,y5,y6,y7;
+and(y1,a,b);
+or(y2,a,b);
+not(y3,a);
+xor(y4,a,b);
+nand(y5,a,b);
+nor(y6,a,b);
+xnor(y7,a,b);
+endmodule
+```
 Logic symbol & Truthtable
 ![image](https://github.com/MathiyazhaganDhanapal/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/145981115/ce574bbb-4145-4cd4-9285-c0309bcf4a6d)
 
