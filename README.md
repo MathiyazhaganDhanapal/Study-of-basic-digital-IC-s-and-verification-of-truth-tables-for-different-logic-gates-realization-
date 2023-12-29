@@ -1,4 +1,4 @@
-## BY:D.MATHIYAZHAGAN.
+## Name:D.MATHIYAZHAGAN.
 ## REGISTER NUMBER:23013685
 # Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-
  AIM:
